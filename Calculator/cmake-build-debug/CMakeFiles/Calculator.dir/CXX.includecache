@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/CQ07/Desktop/A/kuba/studia/JiPP/JiPP2/Calculator/simpleCalc.cpp
+iostream
+-
+cstdlib
+-
+cstring
+-
+
