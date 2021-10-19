@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfirstLibLib.a  CMakeFiles/firstLibLib.dir/src/lib.cpp.o
+/usr/bin/ranlib libfirstLibLib.a

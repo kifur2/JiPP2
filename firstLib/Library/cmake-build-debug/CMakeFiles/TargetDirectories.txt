@@ -1,0 +1,3 @@
+/home/student/Pulpit/nowyxd/JiPP2/firstLib/Library/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/student/Pulpit/nowyxd/JiPP2/firstLib/Library/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/student/Pulpit/nowyxd/JiPP2/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir
