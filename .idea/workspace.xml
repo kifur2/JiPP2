@@ -10,8 +10,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a9382f-7703-4536-bfc6-a6de7d0f038d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Calculator/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/calc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLibLib.dir/src/lib.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +80,9 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/allocation_basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,12 +95,12 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Calculator">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Calculator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/Calculator/calc.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/Calculator/calc.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -89,6 +131,7 @@
       <workItem from="1634072256876" duration="773000" />
       <workItem from="1634157187604" duration="1680000" />
       <workItem from="1634210747655" duration="1161000" />
+      <workItem from="1634817831473" duration="141000" />
     </task>
     <servers />
   </component>
