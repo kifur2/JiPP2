@@ -1,5 +1,5 @@
 //
-// Created by student on 19.10.21.
+// Created by CQ07 on 2021-10-21.
 //
 
 #ifndef FIRSTLIB_LIB_H

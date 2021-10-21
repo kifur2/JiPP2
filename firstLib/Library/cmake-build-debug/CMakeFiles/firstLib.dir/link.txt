@@ -1,2 +1,0 @@
-C:\MinGW\bin\ar.exe qc libfirstLib.a CMakeFiles/firstLib.dir/src/lib.cpp.obj
-C:\MinGW\bin\ranlib.exe libfirstLib.a

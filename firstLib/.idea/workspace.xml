@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="firstLib" />
+      <config projectName="firstLib" targetName="firstLibApp" />
+      <config projectName="firstLib" targetName="firstLibLib" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a104452f-1740-4d20-9c79-39f797eabea5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,23 +121,33 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="CMake Application.firstLib">
+  <component name="RunManager" selected="CMake Application.firstLibApp">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="FirstLib" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="firstLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="firstLib" TARGET_NAME="firstLib" CONFIG_NAME="FirstLib" RUN_PATH="$PROJECT_DIR$/firstLibCall/main.cpp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="firstLib" CONFIG_NAME="FirstLib" RUN_PATH="$PROJECT_DIR$/firstLibCall/main.cpp">
+    <configuration name="firstLibApp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="firstLib" TARGET_NAME="firstLibApp" CONFIG_NAME="FirstLib" RUN_TARGET_PROJECT_NAME="firstLib" RUN_TARGET_NAME="firstLibApp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firstLibLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="firstLib" TARGET_NAME="firstLibLib" CONFIG_NAME="FirstLib">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -149,6 +160,8 @@
     <list>
       <item itemvalue="CMake Application.Build All" />
       <item itemvalue="CMake Application.firstLib" />
+      <item itemvalue="CMake Application.firstLibApp" />
+      <item itemvalue="CMake Application.firstLibLib" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -166,6 +179,7 @@
       <workItem from="1634636559358" duration="2033000" />
       <workItem from="1634815767900" duration="337000" />
       <workItem from="1634816245627" duration="217000" />
+      <workItem from="1634818638370" duration="1651000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,12 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.16)
 
 set(CMAKE_CXX_STANDARD  17)
 
-include_directories(${CMAKE_SOURCE_DIR}/firstLib/Library/include)
+# Dodajemy ścieżkę, w której mają być wyszukiwane pliki nagłówkowe
+include_directories(../Library/include)
 
-add_executable(firstLibCall main.cpp)
+# Dodajemy pliki do kompilacji
+add_executable(firstLibApp main.cpp)
 
-target_link_libraries(firstLibCall firstLib)
+# Załączamy do naszej aplikacji biblioteki. Musi to być po add_executable
+target_link_libraries(firstLibApp firstLibLib)

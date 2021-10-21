@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.16)
 
-project(FirstLib)
+project(firstLib)
 
 add_subdirectory(firstLibCall)
 add_subdirectory(Library)
