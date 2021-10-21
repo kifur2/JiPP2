@@ -12,46 +12,6 @@
     <list default="true" id="a9a9382f-7703-4536-bfc6-a6de7d0f038d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/.idea/Library.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/firstLib.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/Project.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/cmake-build-debug/libfirstLibLib.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/include/firstLib/lib.h" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/include/firstLib/lib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/Library/src/lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/Library/src/lib.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/firstLibCall/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/firstLibCall/.idea/firstLibCall.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/firstLibCall/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/firstLibCall/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/firstLibCall/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/firstLibCall/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/firstLibCall/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstLib/firstLibCall/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/firstLib/firstLibCall/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +59,14 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/allocation_basics/main.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/allocation_basics/main.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -127,6 +87,7 @@
       <workItem from="1634210747655" duration="1161000" />
       <workItem from="1634817831473" duration="789000" />
       <workItem from="1634820301937" duration="39000" />
+      <workItem from="1634821093943" duration="74000" />
     </task>
     <servers />
   </component>
