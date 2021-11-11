@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\allocation_basics.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\allocation_basics.dir/objects.a @CMakeFiles\allocation_basics.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\allocation_basics.dir/objects.a -Wl,--no-whole-archive -o allocation_basics.exe -Wl,--out-implib,liballocation_basics.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\allocation_basics.dir\linklibs.rsp
