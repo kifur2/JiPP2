@@ -14,5 +14,13 @@ int main() {
     v3 = v2 - v3;
     v3.print();
     cout<< (v2|v3) <<endl;
-
+    v3 = v2*3;
+    v3.print();
+    v3 = 4*v2;
+    v3.print();
+    if(v3==v2)
+        cout<<"false"<<endl;
+    if(v3==(4*v2))
+        cout<<"true"<<endl;
+    cout<<v3;
 }

@@ -27,3 +27,7 @@ double pointsDistance(Node a, Node b)
 {
     return sqrt((b.x-a.x)*(b.x-a.x) + (b.y-a.y)*(b.y-a.y));
 }
+ostream &operator<<(ostream &lhs, const Node &rhs){
+    lhs<<"("<<rhs.x<<","<<rhs.y<<") ";
+    return lhs;
+}

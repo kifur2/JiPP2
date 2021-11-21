@@ -6,6 +6,7 @@
 #define LAB6_VECTOR_H
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 class Vector {
 private:
@@ -27,7 +28,19 @@ public:
     Vector operator-(const Vector &rhs) const;
 
     double operator|(const Vector &rhs) const;
+
+    Vector operator*(const double &lhs) const;
+
+    bool operator==(const Vector &rhs)const;
+
+    friend Vector operator*(const double &lhs, const Vector &rhs);
+
+    friend ostream &operator<<(ostream &lhs, const Vector &rhs);
+
     void print();
 };
+Vector operator*(const double &lhs, const Vector &rhs);
+
+ostream &operator<<(ostream &lhs, const Vector &rhs);
 
 #endif //LAB6_VECTOR_H
