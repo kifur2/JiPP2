@@ -4,22 +4,22 @@
 
 #include "Figury.h"
 
-void Figura::printName() {
+void Figure::printName() {
     cout<<"name: "<<name<<endl;
 }
-void Figura::printColor() {
+void Figure::printColor() {
     cout<<"color: "<<color<<endl;
 }
-double Kwadrat::liczPole() {
+double Square::liczPole() {
     return a*a;
 }
-double Kwadrat::liczObwod(){
+double Square::liczObwod(){
     return 4*a;
 }
-double Trojkat::liczPole(){
+double Rectangle::liczPole(){
     double s = liczObwod()/2;
     return sqrt(s*(s-a)*(s-b)*(s-c));
 }
-double Trojkat::liczObwod(){
+double Rectangle::liczObwod(){
     return a+b+c;
 }

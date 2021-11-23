@@ -2,8 +2,8 @@
 #include "Figury.h"
 
 int main() {
-    Kwadrat kwa("kwadrat1", "czerwony", 4);
-    Trojkat tra("Trojkat1", "niebieski", 3, 4, 5);
+    Square kwa("kwadrat1", "czerwony", 4);
+    Rectangle tra("Trojkat1", "niebieski", 3, 4, 5);
     kwa.printName();
     kwa.printColor();
     cout<<"OBW kwa = "<<kwa.liczObwod()<<endl;
