@@ -237,7 +237,7 @@ void sortRow(int *A, int m)
                 swap(&A[j - 1], &A[j]);
 }
 
-void sortRowsInMatrix(int **A, int n, int m)
+void sortRowsInMatrix(int **A, int m, int n)
 {
     for (int i = 0; i < m; i++)
     {
