@@ -6,20 +6,23 @@
 #define PROJEKTKONCOWY_CZAS_H
 #include <iostream>
 #include <string>
+#define MYTYPE int
 using namespace std;
+template<typename T>
 class Czas{
 private:
-    int godzina, minuta;
+    T godzina, minuta;
 public:
     Czas():godzina(0), minuta(0){};
-    Czas(int godzina, int minuta):
+    Czas(T godzina, T minuta):
     godzina(godzina), minuta(minuta){};
-    int getGodzina() const;
-    int getMinuta() const;
-    void setGodzina(int nowaGodzina);
-    void setMinuta(int nowaMinuta);
-    friend ostream &operator<<(ostream &lhs, const Czas &rhs);
-    bool operator<(const Czas* &czas)const{
+    T getGodzina() const{
+        return godzina;
+    }
+    T getMinuta() const{
+        return minuta;
+    }
+    bool operator<(const Czas<T>* &czas)const{
         if(godzina<czas->getGodzina())
             return true;
         else
@@ -29,9 +32,10 @@ public:
                 return false;
     }
 };
+template <typename T>
 struct porownanieCzasow
 {
-    bool operator() (const pair<string,Czas*> &czas1, const pair<string,Czas*> &czas2)const{
+    bool operator() (const pair<string,Czas<T>*> &czas1, const pair<string,Czas<T>*> &czas2)const{
         return czas1.second<czas2.second;
     }
 };

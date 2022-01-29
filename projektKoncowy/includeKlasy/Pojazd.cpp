@@ -5,6 +5,7 @@
 #include "Pojazd.h"
 #define MASA_CZLOWIEKA 100
 
+
 double Pojazd::getPredkoscMaks(){
     return predkoscMaks;
 }
@@ -17,40 +18,40 @@ string Pojazd::getTypPojazdu(){
 int Pojazd::getLiczbaStacji(){
     return liczbaStacji;
 }
-vector <Stacja*>* Pojazd::getTrasa(){
+vector <string>* Pojazd::getTrasa(){
     return trasa;
 }
 string Pojazd::getNazwa(){
     return nazwa;
 }
+
 ostream &operator<<(ostream &lhs, const Pojazd &rhs){
-    Stacja *x,*y;
+    string x,y;
     if(rhs.trasa->size()==0)
     {
         lhs<<rhs.nazwa;
         return lhs;
     }
     for(int i=0; i<rhs.trasa->size(); i++){
-        if(rhs.trasa->at(i)){
+        if(stacje[rhs.trasa->at(i)]){
             x=rhs.trasa->at(i);
             break;
         }
     }
     for(int i=rhs.trasa->size()-1; i>=0; i--){
-        if(rhs.trasa->at(i)){
+        if(stacje[rhs.trasa->at(i)]){
             y=rhs.trasa->at(i);
             break;
         }
     }
-
-    lhs << rhs.nazwa <<" z "<<*x<<" do " << *y;
+    lhs << rhs.nazwa <<" z "<<x<<" do " << y;
     return lhs;
 }
 
 double PociagOsobowy::getMaksMasa() {
     return masaNetto+(maksMasaBagazy+maksLiczbaPasazerow*MASA_CZLOWIEKA);
 }
-map<string, pair<Czas*, Czas*>>* PociagOsobowy::getCzasy(){
+map<string, pair<Czas<MYTYPE>*, Czas<MYTYPE>*>>* PociagOsobowy::getCzasy(){
     return czasy;
 }
 int PociagOsobowy::getMaksLiczbaPasazerow(){
@@ -62,7 +63,7 @@ double PociagOsobowy::getMaksMasaBagazy(){
 double PociagTowarowy::getMaksMasa(){
     return masaNetto+maksMasaZaladunku+4*MASA_CZLOWIEKA;
 }
-map<string, pair<Czas*, Czas*>>* PociagTowarowy::getCzasy(){
+map<string, pair<Czas<MYTYPE>*, Czas<MYTYPE>*>>* PociagTowarowy::getCzasy(){
     return czasy;
 }
 double PociagTowarowy::getMaksMasaZaladunku(){

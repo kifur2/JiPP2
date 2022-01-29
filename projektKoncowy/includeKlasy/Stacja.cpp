@@ -12,14 +12,14 @@ int Stacja::getLiczbaPeronow(){
 void Stacja::dodajPojazd(string &poj){
     pojazdy.push_back(poj);
 }
-void Stacja::dodajPrzyjazd(string &poj, Czas* czas){
+void Stacja::dodajPrzyjazd(string &poj, Czas<MYTYPE>* czas){
     przyjazdy[poj]=czas;
-    pair<string, Czas*> nowyCzas;
+    pair<string, Czas<MYTYPE>*> nowyCzas;
     nowyCzas.first=poj;
     nowyCzas.second=czas;
     tablica.push(nowyCzas);
 }
-void Stacja::dodajOdjazd(string &poj, Czas* czas){
+void Stacja::dodajOdjazd(string &poj, Czas<MYTYPE>* czas){
     odjazdy[poj]=czas;
 }
 ostream &operator<<(ostream &lhs, const Stacja &rhs){
